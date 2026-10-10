@@ -4,7 +4,7 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 export default defineConfig({
-  testMatch: ['login.spec.ts'],
+  
 
     workers: 1,
 
@@ -12,7 +12,7 @@ export default defineConfig({
         
         screenshot: 'only-on-failure',
         video: 'on',
-        headless: false,
+        
         
     },
 
